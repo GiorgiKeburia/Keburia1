@@ -92,7 +92,7 @@ nav {
   left: 30px;
 }
 .nav-list {
-  width: 25rem;
+  width: 22rem;
   height: 100vh;
   position: fixed;
   background-color: rgb(255, 255, 255);
@@ -179,6 +179,22 @@ nav {
 }
 
 /* Services */
+.activities-grid p {
+  visibility: hidden;
+  transition: hidden 1s;
+}
+.one:hover p {
+  visibility: visible;
+}
+.two:hover p {
+  visibility: visible;
+}
+.three:hover p {
+  visibility: visible;
+}
+.four:hover p {
+  visibility: visible;
+}
 .services {
   padding: 0px;
 }
@@ -836,5 +852,10 @@ nav {
 @media screen and (min-width: 1600px) {
   .our-team {
     height: 200vh;
+  }
+}
+@media screen and (max-width: 700px) {
+  .nav-img img {
+    height: 180px;
   }
 }
